@@ -16,7 +16,7 @@ header {
     padding: 0 28px;
     text-transform: uppercase;
     display: flex;
-    flex-wrap: wrap;
+    justify-items: center;
 }
 
 .logo {
@@ -25,8 +25,8 @@ header {
     background-image: url(content/logo.jpg);
     background-position: center;
     background-size: cover;
-    position: relative;
-
+ 
+    /* position: absolute; */
 
 }
 
