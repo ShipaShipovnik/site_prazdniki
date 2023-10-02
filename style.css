@@ -6,21 +6,35 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
 
-    
+
 }
+
 header {
     height: 52px;
     background-color: #F2F3B1;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 50px;
+    margin: 20px 50px 10px 50px;
     padding: 0 28px;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.logo {
+    width: 242px;
+    height: 142px;
+    background-image: url(content/logo.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+/*  */
 .banner {
     height: 790px;
-    background: linear-gradient(0deg, black,hsl(0, 0%, 100%,0)),
-    url(content/19.jpg) no-repeat center center / cover;
+    background: linear-gradient(0deg, black, hsl(0, 0%, 100%, 0)),
+        url(content/19.jpg) no-repeat center center / cover;
     display: flex;
     align-items: end;
     padding: 0 306px 60px 306px;
@@ -29,13 +43,7 @@ header {
     margin-bottom: 64px;
 }
 
-
-.logo {
-    width: 242px;
-    height: 142px;
-    background-image: url(content/logo.jpg);
-    justify-self: center;
-}
+/*  */
 
 section h1 {
     text-align: center;
@@ -51,28 +59,31 @@ section .descrpt {
 }
 
 /* slider */
-.actions{
+.actions {
     margin-bottom: 115px;
 }
-.slider{
+
+.slider {
     width: 1200px;
     height: 280px;
     border: 1px solid black;
 }
-.slider-line{
+
+.slider-line {
     height: 280px;
     width: 4616px;
     border: rgb(188, 66, 86) solid 1px;
     display: flex;
     position: relative;
 }
-.elem{
+
+.elem {
     height: 280px;
     width: 1154px;
     background-color: yellow;
     border: green solid 1px;
     text-align: center;
-    
+
 }
 
 /*  */
@@ -87,15 +98,18 @@ section .descrpt {
     width: 50%;
     height: 200px;
     background-color: #D97575;
+
     padding: 22px;
 }
-.subform input{
+
+.subform input {
     height: 40px;
     width: 350px;
     margin-top: 17px;
     padding-left: 10px;
 }
-.subform p{
+
+.subform p {
     font-size: 20pt;
     margin-top: 5px;
 }
@@ -111,3 +125,128 @@ section .descrpt {
     background-repeat: no-repeat;
 }
 
+/*  */
+.algorythm {
+    height: 690px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(content/26.jpg), lightgray 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 140px;
+    /* padding: 0 100px; */
+}
+
+.algorythm h1 {
+    margin-top: 33px;
+    justify-self: flex-start;
+}
+
+.steps {
+    display: flex;
+    align-items: center;
+
+}
+
+.step {
+    width: 260px;
+    text-align: center;
+}
+
+
+.arrow {
+    width: 84px;
+    margin: 0 28px;
+
+}
+
+.step .circle {
+    width: 210px;
+    height: 210px;
+    margin: 0 auto 10px auto;
+    background-color: rgb(255, 255, 255);
+}
+
+/*  */
+.locations {
+    margin-top: 84px;
+}
+
+.searchform {
+    width: 90%;
+    height: 117px;
+    background: #F0E1AB;
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.searchform input[type="text"] {
+    width: 300px;
+    height: 33px;
+    border: none;
+}
+
+.searchform input[type="date"] {
+    width: 207px;
+    height: 33px;
+    border: none;
+}
+
+.searchform input[type="number"] {
+    width: 80px;
+    height: 33px;
+    border: none;
+}
+
+.searchform input[type="submit"] {
+    width: 120px;
+    height: 70px;
+    border: none;
+    border-radius: 200px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*  */
+.rewievs {
+    margin-top: 60px;
+    width: 1440px;
+    /* height: 3557px; */
+    margin: 60px auto 130px auto;
+
+}
+
+.rewiev-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rewiev {
+    width: 561px;
+    height: 209px;
+    text-align: center;
+    padding: 30px;
+    background-color: aliceblue;
+    margin: 12px;
+    border-radius: 10px;
+}
+
+/*  */
+footer {
+    height: 162px;
+    text-align: center;
+    background: #C1C1C1;
+    padding: 35px;
+}
+footer nav{
+    margin-bottom: 47px;
+}

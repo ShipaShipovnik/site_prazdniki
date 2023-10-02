@@ -6,19 +6,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <p>Инфо</p>
-        <p>акции</p>
-        <p>отзывы</p>
-        <p>поиск</p>
+        <nav class="leftnav">
+            <p>Инфо</p>
+            <p>акции</p>
+            <p>отзывы</p>
+            <p>поиск</p>
+        </nav>
         <div class="logo"></div>
-        <p>контакты</p>
-        <p>войти\зарегестрироваться</p>
+        <nav class="rightnav">
+            <p>контакты</p>
+            <p>войти\зарегестрироваться</p>
+        </nav>
     </header>
     <section class="banner">
         <div class="gradient">
@@ -79,10 +84,31 @@
 
     <section class="algorythm">
         <h1>КАК ПРОИСХОДИТ БРОНИРОВАНИЕ?</h1>
-        <div class="steps"></div>
+        <div class="steps">
+            <div class="step">
+                <div class="circle"></div>
+                <p>1.Выберите дату праздника
+                    и количество гостей</p>
+            </div>
+            <img class="arrow" src="content/arrow.png">
+            <div class="step">
+                <div class="circle"></div>
+                <p>2.Выберите локацию и зону<br><br></p>
+            </div>
+            <img class="arrow" src="content/arrow.png">
+            <div class="step">
+                <div class="circle"></div>
+                <p>3.Выбрите дополнительные услуги</p>
+            </div>
+            <img class="arrow" src="content/arrow.png">
+            <div class="step">
+                <div class="circle"></div>
+                <p>4.Оформление заказа<br><br></p>
+            </div>
+        </div>
     </section>
     <section class="locations">
-        <h1>ЛОАКЦИИ</h1>
+        <h1>ЛОКАЦИИ</h1>
         <p class="descrpt">Введите данные и мы перенесем вас на страницу с доступными локациями для вашего праздника!
         </P>
         <div class="searchform">
@@ -96,37 +122,39 @@
     <section class="rewievs">
         <h1>ОТЗЫВЫ</h1>
         <p class="descrpt">Отзывы наших клиентов.</p>
-        <div class="rewiev">
-            <p>Спасибо большое! Дети в бурных эмоция, аниматор супер, даже взрослые участвовали, как это было все
-                классно, энергично, здорово!
-                Успехов вам больших! <br>
-                <br>
-                – Светлана
-            </p>
-        </div>
-        <div class="rewiev">
-            <p>Спасибо большое! Дети в бурных эмоция, аниматор супер, даже взрослые участвовали, как это было все
-                классно, энергично, здорово!
-                Успехов вам больших! <br>
-                <br>
-                – Светлана
-            </p>
-        </div>
-        <div class="rewiev">
-            <p>Спасибо большое! Дети в бурных эмоция, аниматор супер, даже взрослые участвовали, как это было все
-                классно, энергично, здорово!
-                Успехов вам больших! <br>
-                <br>
-                – Светлана
-            </p>
-        </div>
-        <div class="rewiev">
-            <p>Спасибо большое! Дети в бурных эмоция, аниматор супер, даже взрослые участвовали, как это было все
-                классно, энергично, здорово!
-                Успехов вам больших! <br>
-                <br>
-                – Светлана
-            </p>
+        <div class="rewiev-container">
+            <div class="rewiev">
+                <p>Спасибо большое! Дети в бурных эмоция, аниматор супер, даже взрослые участвовали, как это было все
+                    классно, энергично, здорово!
+                    Успехов вам больших! <br>
+                    <br>
+                    – Светлана
+                </p>
+            </div>
+            <div class="rewiev">
+                <p>Спасибо большое! Дети в бурных эмоция, аниматор супер, даже взрослые участвовали, как это было все
+                    классно, энергично, здорово!
+                    Успехов вам больших! <br>
+                    <br>
+                    – Светлана
+                </p>
+            </div>
+            <div class="rewiev">
+                <p>Спасибо большое! Дети в бурных эмоция, аниматор супер, даже взрослые участвовали, как это было все
+                    классно, энергично, здорово!
+                    Успехов вам больших! <br>
+                    <br>
+                    – Светлана
+                </p>
+            </div>
+            <div class="rewiev">
+                <p>Спасибо большое! Дети в бурных эмоция, аниматор супер, даже взрослые участвовали, как это было все
+                    классно, энергично, здорово!
+                    Успехов вам больших! <br>
+                    <br>
+                    – Светлана
+                </p>
+            </div>
         </div>
     </section>
     <footer>
