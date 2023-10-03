@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        header {
+            height: 52px;
+            background-color: #F2F3B1;
+            margin: 20px 50px 10px 50px;
+            padding: 0 28px;
+            text-transform: uppercase;
+            display: flex;
+            display: grid;
+            grid-template-columns: 1fr 245px 1fr;
+            grid-template-rows: 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            justify-content: start;
+            justify-items: stretch;
+            grid-template-areas:
+                "left logo right";
+        }
+
+        .logo {
+            width: 242px;
+            height: 142px;
+            background-image: url(content/logo.jpg);
+            background-position: center;
+            background-size: cover;
+            justify-self: center;
+            grid-area: logo;
+        }
+
+        .leftnav {
+            justify-self: start;
+            grid-area: left;
+            display: flex;
+            
+        }
+        .rightnav p,.leftnav p{
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        .rightnav {
+            justify-self: end;
+            grid-area: right;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="leftnav">
+            <p>Инфо</p>
+            <p>акции</p>
+            <p>отзывы</p>
+            <p>поиск</p>
+        </nav>
+        <div class="logo"></div>
+        <nav class="rightnav">
+            <p>контакты</p>
+            <p>войти\зарегестрироваться</p>
+        </nav>
+    </header>
+</body>
+
+</html>
