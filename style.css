@@ -35,6 +35,7 @@ header {
     background-size: cover;
     justify-self: center;
     grid-area: logo;
+    border-radius: 50%;
 }
 
 .leftnav {
@@ -93,6 +94,8 @@ section .descrpt {
     height: 280px;
     width: 1154px;
     background: #F0E1AB;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
