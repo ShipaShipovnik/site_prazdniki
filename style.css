@@ -227,8 +227,14 @@ section .descrpt {
     width: 210px;
     height: 210px;
     margin: 0 auto 10px auto;
-    background-color: rgb(255, 255, 255);
+    background-image: url(content/illustr1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+#illu2{background-image: url(content/illustr2.png);}
+#illu3{background-image: url(content/illustr3.png);}
+#illu4{background-image: url(content/illustr4.png);}
 
 /*  */
 .locations {
