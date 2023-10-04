@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+
+}
+header {
+    height: 52px;
+    background-color: #F2F3B1;
+    margin: 20px 50px 10px 50px;
+    padding: 0 28px;
+    text-transform: uppercase;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 245px 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: start;
+    justify-items: stretch;
+    grid-template-areas:
+        "left logo right";
+}
+
+.logo {
+    width: 242px;
+    height: 142px;
+    background-image: url(content/logo.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-self: center;
+    grid-area: logo;
+    border-radius: 50%;
+}
+
+.leftnav {
+    justify-self: start;
+    grid-area: left;
+    display: flex;
+    height: 52px;
+
+}
+
+.rightnav p,
+.leftnav p {
+    margin: auto 15px auto 15px;
+
+}
+
+.rightnav {
+    justify-self: end;
+    grid-area: right;
+    display: flex;
+    height: 52px;
+
+}
+
+/*  */
+.banner {
+    height: 288px;
+    background: linear-gradient(0deg, black, hsl(0, 0%, 100%, 0)),
+        url(content/19.jpg) no-repeat center center / cover;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+    /* padding: 0 400px  ; */
+    color: white;
+}
+
+/*  */
+
+section h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    font-size: 20pt;
+}
+
+section .descrpt {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 14pt;
+}
+
+
+/*  */
+
+
+.searchform {
+    width: 90%;
+    height: 117px;
+    background: #F0E1AB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.searchform input[type="text"] {
+    width: 300px;
+    height: 33px;
+    border: none;
+}
+
+.searchform input[type="date"] {
+    width: 207px;
+    height: 33px;
+    border: none;
+}
+
+.searchform input[type="number"] {
+    width: 80px;
+    height: 33px;
+    border: none;
+}
+
+.searchform input[type="submit"] {
+    width: 120px;
+    height: 70px;
+    border: none;
+    border-radius: 200px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* результаты поиска*/
+.results {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px auto 50px auto;
+}
+
+.location {
+    width: 433px;
+    height: 460px;
+    background: #EDE7CA;
+    padding: 25px;
+    font-size: 14px;
+    margin-bottom: 36px;
+    position: relative;
+    
+}
+
+.location button {
+    width: 379.771px;
+    height: 40px;
+    background: #FFF;
+    border: grey solid 1px;
+    font-size: 20px;
+    position: absolute;
+    bottom:25px;
+}
+
+.loc-photo {
+    width: 386.936px;
+    height: 138px;
+    background: url(content/24.jpg) center center / cover;
+    margin-bottom: 23px;
+}
+
+/*  */
+footer {
+    height: 162px;
+    text-align: center;
+    background: #C1C1C1;
+    padding: 35px;
+}
+
+footer nav {
+    margin-bottom: 47px;
+}
