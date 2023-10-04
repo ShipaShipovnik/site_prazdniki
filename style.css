@@ -317,3 +317,9 @@ footer {
 footer nav {
     margin-bottom: 47px;
 }
+
+a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
