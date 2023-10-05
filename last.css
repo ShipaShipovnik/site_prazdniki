@@ -90,15 +90,68 @@ section .descrpt {
 
 /*  */
 
-.next {
+.submitbutton input {
     width: 253px;
     height: 60px;
     font-size: 18px;
     background: #F0E1AB;
     border: none;
-    position: relative;
-    float: right;
+    
 }
+
+.finalstep {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 0px 15px;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: start;
+    grid-template-areas:
+        "form text"
+        "form submitbutton";
+    /* height: 665px; */
+    margin: 49px;
+
+}
+
+.form {
+    justify-self: stretch;
+    grid-area: form;
+}
+
+form {
+    text-transform: capitalize;
+    height: 100%;
+}
+
+table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid grey;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+textarea {
+    width: 100%;
+    min-height: 60px;
+}
+
+
+.text {
+    justify-self: stretch;
+    grid-area: text;
+}
+
+.submitbutton {
+    justify-self: stretch;
+    grid-area: submitbutton;
+}
+
 
 /*  */
 footer {
